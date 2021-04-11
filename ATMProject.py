@@ -58,7 +58,7 @@ def bankOperations(user):
     print(f"Welcome {user[0].upper()}, Time is: {now} \n")
 
     option = int(input(
-        "what operation do u want to do? 1.(Deposit) 2.(Withdraw) 3.(Check Balance) 4.(Complaint) 5.(see your details) 6.(Logout) 7.(Exit) \n"))
+        "what operation do u want to do? 1.(Deposit) 2.(Withdraw) 3.(Check Balance) 4.(Complaint) 5.(Profile) 6.(Logout) 7.(Exit) \n"))
         
 
     if (option == 1):
